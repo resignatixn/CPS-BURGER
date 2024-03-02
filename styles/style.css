@@ -86,6 +86,7 @@ ul {
 .menu__items {
   display: flex;
   flex-direction: column;
+  margin: 0 0 24px;
 }
 
 .menu__item {
@@ -189,4 +190,10 @@ ul {
 
 .menu__language:not(:last-child) {
   margin-right: 7px;
+}
+
+@media (max-height: 768px) {
+  .menu {
+    height: 100%;
+  }
 }
