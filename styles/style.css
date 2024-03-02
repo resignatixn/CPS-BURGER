@@ -52,13 +52,26 @@ ul {
 .menu__header {
   padding: 24px;
   display: flex;
+  align-items: center;
 }
 
-.menu__button:not(:last-child) {
+.header__link {
+  background-image: url(../public/logo.svg);
+  width: 98px;
+  height: 52px;
+}
+
+.header__button:not(:last-child) {
+  background-image: url(../public/burger.svg);
+  width: 40px;
+  height: 40px;
   margin-right: 16px;
 }
 
-.menu__button:last-child {
+.header__button:last-child {
+  background-image: url(../public/search.svg);
+  width: 40px;
+  height: 40px;
   margin-left: 78px;
 }
 
@@ -111,6 +124,24 @@ ul {
 .menu__contact--buttons {
   display: flex;
   margin-bottom: 16px;
+}
+
+.menu__contact--button:nth-child(1) {
+  background-image: url(../public/chat\ copy.svg);
+  width: 40px;
+  height: 40px;
+}
+
+.menu__contact--button:nth-child(2) {
+  background-image: url(../public/chat.svg);
+  width: 40px;
+  height: 40px;
+}
+
+.menu__contact--button:nth-child(3) {
+  background-image: url(../public/profile.svg);
+  width: 40px;
+  height: 40px;
 }
 
 .menu__contact--button:not(:last-child) {
